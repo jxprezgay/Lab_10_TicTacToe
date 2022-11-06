@@ -145,9 +145,9 @@ public class TicTacToe {
                     board[row][2].equals("X")){
                 xFlag = true;
             }
-            if (board[row][0].equals("X") ||
-                    board[row][1].equals("X") ||
-                    board[row][2].equals("X")){
+            if (board[row][0].equals("O") ||
+                    board[row][1].equals("O") ||
+                    board[row][2].equals("O")){
                 oFlag = true;
             }
             if (!(xFlag && oFlag)){
@@ -161,9 +161,9 @@ public class TicTacToe {
                     board[2][col].equals("X")) {
                 xFlag = true;
             }
-            if (board[0][col].equals("X") ||
-                    board[1][col].equals("X") ||
-                    board[2][col].equals("X")) {
+            if (board[0][col].equals("O") ||
+                    board[1][col].equals("O") ||
+                    board[2][col].equals("O")) {
                 oFlag = true;
             }
             if (!(xFlag && oFlag)) {
